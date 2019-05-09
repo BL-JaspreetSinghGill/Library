@@ -9,7 +9,6 @@ import lombok.Data;
 @Data
 public class RegisterOnlyUserDTO {
 	
-//	@NotEmpty(message="Please enter valid campaign Id")
 	private String campaignId;
 	
 	@NotEmpty(message="Please enter valid Email Id")
